@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0057b7; /* Ukraine Blue */
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 100px 20px 20px;
+}
+
+main .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #ffd700; /* Ukraine Yellow */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Image styling */
+.ukraine-image {
+    width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0 autp;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #0057b7; /* Ukraine Blue */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+footer .container {
+    width: 80%;
+    margin: 0 auto;
+}
